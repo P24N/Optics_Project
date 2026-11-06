@@ -27,7 +27,7 @@ Conventional high-beam headlamps cause severe nocturnal disability glare ($>59\t
 
 ## Mathematical Framework (Jones Calculus)
 
-The optical pipeline cascades $2 \times 2$ complex Jones matrices to evaluate output electric field vectors $\mathbf{E}_{\text{out}}$ and retinal illuminance $I \propto |\mathbf{E}_{\text{out}}|^2$:
+The optical pipeline cascades $2 \times 2$ complex Jones matrices to evaluate output electric field vectors $\mathbf{E}_{\text{out}}$ and retinal illuminance $I \propto \vert{}\mathbf{E}_{\text{out}}\vert{}^2$:
 
 $$\mathbf{E}_{\text{RCP}} = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ -i \end{pmatrix}, \quad \mathbf{J}_{\text{QWP}}(0^\circ) = e^{i\pi/4} \begin{pmatrix} 1 & 0 \\ 0 & -i \end{pmatrix}, \quad \mathbf{J}_{\text{Windshield}}(\delta) = \mathbf{R}(-\phi) \begin{pmatrix} e^{i\delta/2} & 0 \\ 0 & e^{-i\delta/2} \end{pmatrix} \mathbf{R}(\phi)$$
 
@@ -63,3 +63,19 @@ $$\mathbf{E}_{\text{RCP}} = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 \\ -i \end{pmat
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
    cd YOUR_REPO_NAME
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch the interactive Streamlit dashboard:**
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Run or export the approach animation:**
+   ```bash
+   python glare_animation.py
+   ```
