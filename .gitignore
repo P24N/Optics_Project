@@ -1,0 +1,6 @@
+.venv/
+__pychache__/
+.ipynb_checkpoints/
+*.mp4
+*.mkv
+*.blend
