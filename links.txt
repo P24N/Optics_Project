@@ -1,0 +1,3 @@
+GitHub: https://github.com/P24N/Optics_Project/blob/main/README.md
+Gemini Chat: https://share.gemini.google/TzgjCl0UHs1y
+Website: https://opticsproject.streamlit.app/
